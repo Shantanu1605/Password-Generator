@@ -110,6 +110,7 @@ async function copyContent(){
     
     setTimeout(()=>{
         copyMsg.classList.remove("active");
+        copyMsg.innerText="";
     },2000);
      
 }
